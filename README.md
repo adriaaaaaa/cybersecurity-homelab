@@ -48,12 +48,24 @@ The goal is to build a practical environment for monitoring systems, investigati
 
 ## Repository Structure
 
-- `architecture/` — Homelab architecture diagrams
-- `ubuntu-server/` — Server setup and administration
-- `docker/` — Containerization documentation
-- `monitoring/` — Prometheus and Grafana
-- `security/wazuh/` — SIEM deployment and security investigations
-- `screenshots/` — Sanitized screenshots of the environment
+## Project Documentation
+
+| Component | Description | Documentation |
+|---|---|---|
+| Architecture | Homelab infrastructure and service communication | [View Architecture](architecture/README.md) |
+| Ubuntu Server | Linux server setup and administration | [View Documentation](ubuntu-server/README.md) |
+| Docker | Container deployment and management | [View Documentation](docker/README.md) |
+| Prometheus | Infrastructure metrics collection | [View Documentation](monitoring/prometheus/README.md) |
+| Grafana | Monitoring dashboards and visualization | [View Documentation](monitoring/grafana/README.md) |
+| Wazuh SIEM | Security monitoring and endpoint management | [View Documentation](security/wazuh/README.md) |
+
+## Security Investigations
+
+| Lab | Description | Documentation |
+|---|---|---|
+| Lab 01 | Windows Failed Login Detection (Event ID 4625) | [View Investigation](security/wazuh/investigations/windows-failed-login.md) |
+
+Additional security labs will be documented as the homelab expands.
 
 ## Project Goals
 
