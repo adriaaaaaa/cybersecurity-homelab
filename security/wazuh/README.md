@@ -99,3 +99,24 @@ The Wazuh Dashboard confirms that both monitored endpoints
 are connected and actively reporting to the Wazuh Manager.
 
 ![Wazuh Agents Dashboard](wazuh-agents.png)
+
+## Security Event Detection Workflow
+
+1. A failed login attempt occurs on the Windows endpoint.
+2. Windows records the authentication failure as Security Event ID 4625.
+3. The Wazuh agent collects the Windows Security event.
+4. The Wazuh Manager analyzes the event against its detection rules.
+5. Wazuh rule 60122 generates a level 5 alert.
+6. The alert is indexed and made available in the Wazuh Dashboard.
+7. The analyst reviews the event and documents the findings.
+
+### Detection Validation
+
+A controlled failed-login test was performed to validate
+the security monitoring pipeline.
+
+The test successfully generated a Wazuh alert, confirming
+end-to-end visibility from the Windows endpoint to the SIEM.
+
+See the [Windows Failed-Login Investigation](investigations/windows-failed-login.md)
+for the alert evidence and analysis.
