@@ -167,3 +167,34 @@ events to the Wazuh SIEM for analysis.
 A failed login alone does not establish malicious activity.
 Repeated failures or unusual authentication patterns
 would warrant further investigation.
+
+## Investigation Summary
+
+### Initial Detection
+Wazuh generated a level 5 alert after detecting a failed
+Windows authentication attempt (Event ID 4625).
+
+### Investigation Findings
+- Affected endpoint: windows-desktop
+- Detection rule: 60122
+- Event category: Authentication failure
+- Alert severity: Level 5
+- Activity source: Controlled homelab test
+
+### Assessment
+The failed authentication event was generated intentionally
+to validate the SIEM's detection capabilities.
+
+The alert confirms that Windows Security events are being
+collected and processed by the Wazuh infrastructure.
+
+### Conclusion
+Classification: Authorized security testing
+
+The observed event was expected during the controlled test.
+No evidence from this alert alone indicates a successful
+unauthorized login.
+
+### Recommended Follow-Up
+Monitor for repeated authentication failures, unexpected
+source addresses, and suspicious login patterns.
