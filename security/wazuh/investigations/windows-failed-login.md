@@ -130,3 +130,40 @@ In a real security investigation, additional context would be necessary, includi
 - Explore Wazuh authentication correlation rules.
 - Create dashboards for Windows authentication activity.
 - Document additional security detection scenarios.
+
+## Detection Evidence
+
+The Wazuh SIEM successfully detected a failed authentication
+attempt on the Windows endpoint.
+
+### Alert Details
+
+| Field | Value |
+|---|---|
+| Endpoint | windows-desktop |
+| Windows Event ID | 4625 |
+| Wazuh Rule ID | 60122 |
+| Alert Level | 5 |
+| Description | Logon Failure - Unknown user or bad password |
+| Detection Date | October 10, 2026 |
+
+### Wazuh Alert Screenshot
+
+![Windows Failed Login Detection](windows-failed-login.png)
+
+### Security Analysis
+
+Windows Event ID 4625 indicates that an account failed
+to authenticate successfully.
+
+Wazuh collected the Windows Security event and generated
+an alert using rule 60122 at severity level 5.
+
+This event was generated during a controlled authentication
+test in the homelab. The alert demonstrates that the
+Windows endpoint is successfully forwarding security
+events to the Wazuh SIEM for analysis.
+
+A failed login alone does not establish malicious activity.
+Repeated failures or unusual authentication patterns
+would warrant further investigation.
