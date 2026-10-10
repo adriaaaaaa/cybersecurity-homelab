@@ -92,3 +92,10 @@ Screenshots and configuration examples will be sanitized before being committed 
 ## Project Status
 
 **Operational — Additional Security Labs Planned**
+
+## Wazuh Agent Monitoring
+
+The screenshot below shows both Ubuntu and Windows agents
+successfully connected to the Wazuh Manager.
+
+![Wazuh Agents Dashboard](screenshots/wazuh-agents.png)
