@@ -149,7 +149,7 @@ attempt on the Windows endpoint.
 
 ### Wazuh Alert Screenshot
 
-![Windows Failed Login Detection](windows-failed-login.png)
+![Windows Failed Login Detection](windows-failed-login.jpg)
 
 ### Security Analysis
 
