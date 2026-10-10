@@ -95,7 +95,7 @@ Screenshots and configuration examples will be sanitized before being committed 
 
 ## Wazuh Agent Monitoring
 
-The screenshot below shows both Ubuntu and Windows agents
-successfully connected to the Wazuh Manager.
+The Wazuh Dashboard confirms that both monitored endpoints
+are connected and actively reporting to the Wazuh Manager.
 
-![Wazuh Agents Dashboard](screenshots/wazuh-agents.png)
+![Wazuh Agents Dashboard](wazuh-agents.png)
