@@ -4,9 +4,9 @@
 
 This project documents my personal cybersecurity and infrastructure homelab, built to develop hands-on experience with Linux administration, networking, containerization, system monitoring, and security operations.
 
-The homelab runs on a dedicated mini PC using Ubuntu Server 24.04. It hosts containerized monitoring and security tools, including Prometheus, Grafana, and Wazuh SIEM.
+The homelab runs on a dedicated PC using Ubuntu Server 24.04. It hosts containerized monitoring and security tools, including Prometheus, Grafana, and Wazuh SIEM.
 
-The goal is to build a practical environment for monitoring systems, investigating security events, troubleshooting infrastructure, and developing security engineering skills.
+The goal is to build a practical environment for monitoring systems, investigating security events, troubleshooting infrastructure, and developing security skills.
 
 ## Technologies Used
 
