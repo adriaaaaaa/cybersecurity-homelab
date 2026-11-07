@@ -40,7 +40,7 @@ flowchart TB
 
 ### Ubuntu Server
 
-The Ubuntu mini PC provides the underlying infrastructure, hosting Docker containers and the local Wazuh agent.
+The PC provides the underlying infrastructure, hosting Docker containers and the local Wazuh agent.
 
 ### Wazuh SIEM
 
