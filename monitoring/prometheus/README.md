@@ -66,7 +66,6 @@ These issues provided experience troubleshooting containerized monitoring servic
 
 - Verify and document active scrape targets
 - Add system-level metrics using Node Exporter
-- Create Grafana dashboards for CPU, memory, disk, and network utilization
 - Configure monitoring alerts for infrastructure issues
 
 ## Security Considerations
