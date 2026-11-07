@@ -172,7 +172,7 @@ The Wazuh SIEM successfully detected an SSH authentication attempt against a non
 
 ### Wazuh Alert Screenshot
 
-![Linux SSH Authentication Failure Detection](linux-ssh-alert.png)
+![Linux SSH Authentication Failure Detection](linux-ssh-alert.jpg)
 
 ### Security Analysis
 
