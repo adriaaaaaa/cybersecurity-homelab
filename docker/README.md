@@ -11,7 +11,7 @@ Containerization allows multiple monitoring and security services to run on the 
 - **Host Operating System:** Ubuntu Server 24.04
 - **Container Platform:** Docker Engine
 - **Multi-Container Management:** Docker Compose
-- **Hardware:** Dedicated mini PC
+- **Hardware:** PC
 
 ## Containerized Services
 
