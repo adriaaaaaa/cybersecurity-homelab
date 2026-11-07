@@ -4,7 +4,7 @@
 
 Grafana is used in my cybersecurity homelab to visualize infrastructure metrics collected by Prometheus.
 
-Grafana runs in a Docker container on my Ubuntu Server 24.04 mini PC, alongside other monitoring and security services.
+Grafana runs in a Docker container on my Ubuntu Server, alongside other monitoring and security services.
 
 ## Technologies Used
 
